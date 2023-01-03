@@ -1,0 +1,81 @@
+*{
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url(/bg\ image\ 2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* color: red; */
+}
+.A img{
+    height: 110px;
+    width: 112px;
+
+}
+.A ul{
+   float: right;
+   margin-right: 5px;
+  
+
+}
+.A ul li{
+    position: relative;
+    top: 10px;
+    right: 30px;
+    transform: translate(-50%, -50%);
+    display: inline;
+    line-height: 100px;
+    margin: 5px;
+    
+}
+.A ul li a{
+    color: white;
+    font-size: 20px;
+}
+.A ul li a :hover,
+.A ul li a.a+{
+    background-color: rgb(3, 3, 3);
+
+}
+
+.aside{
+
+    height: 84vh;
+    width: 30%;
+    background-image: url(/slogan.webp);
+    background-size: cover;
+    color: white;
+    font: bold;
+    font-size: 50px;
+}
+.article{
+
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    transform: translate(-50,-50);
+}
+.z{
+    position: absolute;
+    top:40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    border: 4px solid black;
+
+}
+.mov{
+    position: absolute;
+    top: 58%;
+    left: 77%;
+
+}
